@@ -7,7 +7,7 @@ public class Movie {
 	
 	public Movie(String title, int review) {
 		this.title = title;
-		this.review = -1;
+		this.review = review;
 	}
 	
 	public Movie(String title) {
